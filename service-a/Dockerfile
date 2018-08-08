@@ -1,9 +1,9 @@
 FROM mhart/alpine-node
-EXPOSE 8082
+EXPOSE 80
 
 WORKDIR /app
 COPY package.json .
 RUN npm install
 COPY . .
 
-CMD ["node", "server.js"2
+CMD ["node", "server.js"
