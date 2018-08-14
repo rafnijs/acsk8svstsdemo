@@ -1,5 +1,5 @@
 FROM mhart/alpine-node
-EXPOSE 82
+EXPOSE 8
 
 WORKDIR /app
 COPY package.json .
