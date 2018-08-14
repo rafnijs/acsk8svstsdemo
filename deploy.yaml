@@ -12,7 +12,7 @@ spec:
     - containerPort: 80
       protocol: TCP
 ---
-apiVersion: apps/v1beta2
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: service-b-deployment
